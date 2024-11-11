@@ -8,6 +8,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <views:TimelineView DataContext="{Binding CurrentViewModel}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!--App bar that contains file and export actions-->
+        <Grid Background="DarkGoldenrod">
+            <TextBlock Grid.Row="0" Text="Videam App Bar" HorizontalAlignment="Center" FontSize="20" Background="DarkGoldenrod"/>
+        </Grid>
+
+        <!--Split bar between video preview and local file preview-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="File Location" Background="Green"/>
+            <TextBlock Grid.Column="1" Width="Auto" Text="Video Preview" Background="Purple"/>
+        </Grid>
+        
+        <!--Timeline view to snip and overlay audio and video formats-->
+        <views:TimelineView Grid.Row="2" DataContext="{Binding CurrentViewModel}" Background="Red"/>
     </Grid>
 </Window>

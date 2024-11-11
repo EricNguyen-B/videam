@@ -4,32 +4,37 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Videam.Views"
-        mc:Ignorable="d"
-        Height="250" Width="700">
-    <Grid x:Name="parentDisplayGrid">
+        mc:Ignorable="d">
+    <Grid x:Name="timelineParentGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid x:Name="ControlsGrid" Grid.Row="0">
+
+        <Grid x:Name="ControlsGrid" Grid.Row="0" HorizontalAlignment="Stretch">
             <StackPanel Orientation="Horizontal">
-                <Button Command="{Binding AddSceneCommand}" Content="Add Scene"/>
+                <TextBox Text="{Binding SceneName, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Command="{Binding MakeSceneCommand}" Content="Add Scene" Margin="5,0,0,0"/>
             </StackPanel>
         </Grid>
-        <TextBlock Grid.Row="1" Text="{Binding SceneName}"/>
-        <!--<Grid x:Name="ScenesGrid" Grid.Row="1" Margin="20" Background="Gray">
-            <ItemsControl x:Name="sceneControls" VerticalAlignment="Top" ItemsSource="{Binding Path=sceneControls, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <StackPanel IsItemsHost="True" Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding SceneName}"/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </Grid>-->
+
+        <Grid x:Name="ScenesGrid" Grid.Row="1" Background="Gray" Margin="0,15,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <ItemsControl x:Name="sceneControls" VerticalAlignment="Top" HorizontalAlignment="Stretch" ItemsSource="{Binding Path=allScenes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel IsItemsHost="True" Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="Blue" HorizontalAlignment="Stretch" Margin="3" CornerRadius="3" Height="25">
+                                <TextBlock Text="{Binding name}"/>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
     </Grid>
 </UserControl>

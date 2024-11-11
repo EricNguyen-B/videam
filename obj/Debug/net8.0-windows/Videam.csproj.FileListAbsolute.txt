@@ -21,3 +21,27 @@ C:\Users\Eric Nguyen\source\repos\Videam\obj\Debug\net8.0-windows\ref\Videam.dll
 C:\Users\Eric Nguyen\source\repos\Videam\obj\Debug\net8.0-windows\Views\TimelineView.g.cs
 C:\Users\Eric Nguyen\source\repos\Videam\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Eric Nguyen\source\repos\Videam\obj\Debug\net8.0-windows\Views\TimelineView.baml
+C:\Users\enguy\source\repos\videam\bin\Debug\net8.0-windows\Videam.exe
+C:\Users\enguy\source\repos\videam\bin\Debug\net8.0-windows\Videam.deps.json
+C:\Users\enguy\source\repos\videam\bin\Debug\net8.0-windows\Videam.runtimeconfig.json
+C:\Users\enguy\source\repos\videam\bin\Debug\net8.0-windows\Videam.dll
+C:\Users\enguy\source\repos\videam\bin\Debug\net8.0-windows\Videam.pdb
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Views\TimelineView.g.cs
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam_MarkupCompile.cache
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam_MarkupCompile.lref
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Views\TimelineView.baml
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.g.resources
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.AssemblyInfoInputs.cache
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.AssemblyInfo.cs
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.csproj.CoreCompileInputs.cache
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.sourcelink.json
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.dll
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\refint\Videam.dll
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.pdb
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.genruntimeconfig.cache
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\ref\Videam.dll

@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Eric Nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\enguy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eric Nguyen\\source\\repos\\Videam\\Videam.csproj",
+      "projectUniqueName": "C:\\Users\\enguy\\source\\repos\\videam\\Videam.csproj",
       "projectName": "Videam",
-      "projectPath": "C:\\Users\\Eric Nguyen\\source\\repos\\Videam\\Videam.csproj",
-      "packagesPath": "C:\\Users\\Eric Nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eric Nguyen\\source\\repos\\Videam\\obj\\",
+      "projectPath": "C:\\Users\\enguy\\source\\repos\\videam\\Videam.csproj",
+      "packagesPath": "C:\\Users\\enguy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enguy\\source\\repos\\videam\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Eric Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\enguy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

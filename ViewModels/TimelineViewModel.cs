@@ -1,15 +1,15 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
+using Videam.Commands;
+using Videam.Models;
 
 namespace Videam.ViewModels
 {
     public class TimelineViewModel : ViewModelBase
     {
-        private string? _sceneName;
-        private ObservableCollection<SceneViewModel> _allScenes = new ObservableCollection<SceneViewModel>();
-        
-        //public ICommand AddSceneCommand { get; }
+        public ICommand MakeSceneCommand { get; }
 
+        private string? _sceneName = "Enter Scene Name";
         public string? SceneName
         {
             get
@@ -23,7 +23,8 @@ namespace Videam.ViewModels
             }
         }
 
-        public ObservableCollection<SceneViewModel> AllScenes
+        private ObservableCollection<SceneViewModel> _allScenes = new ObservableCollection<SceneViewModel>();
+        public ObservableCollection<SceneViewModel> allScenes
         {
             get
             {
@@ -32,27 +33,14 @@ namespace Videam.ViewModels
             set
             {
                 _allScenes = value;
-                OnPropertyChanged(nameof(AllScenes));
+                OnPropertyChanged(nameof(allScenes));
             }
         }
-    }
 
-    class Updater : ICommand
-    {
-        public bool CanExecute(object? parameter)
+        public TimelineViewModel()
         {
-            return true;
-        }
-
-        public event EventHandler CanExecuteChanged
-        {
-            add { CommandManager.RequerySuggested += value; }
-            remove { CommandManager.RequerySuggested -= value;}
-        }
-
-        public void Execute(object? parameter)
-        {
-            throw new NotImplementedException();
+            TimelineManager manager = new TimelineManager();
+            MakeSceneCommand = new MakeSceneCommand(this, manager);
         }
     }
 }
