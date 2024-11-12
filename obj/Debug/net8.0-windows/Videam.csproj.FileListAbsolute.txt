@@ -45,3 +45,5 @@ C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\refint\Videam.dll
 C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.pdb
 C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Videam.genruntimeconfig.cache
 C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\ref\Videam.dll
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Views\VideoClipView.baml
+C:\Users\enguy\source\repos\videam\obj\Debug\net8.0-windows\Views\VideoClipView.g.cs

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\enguy\\source\\repos\\videam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\viewmodels\\sceneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:viewmodels\\sceneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\views\\timelineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:views\\timelineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\commands\\makescenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:commands\\makescenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\views\\videoclipview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:views\\videoclipview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\views\\videoclipview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:views\\videoclipview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\viewmodels\\timelineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +27,12 @@
       "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:models\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\views\\timelineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:views\\timelineview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\commands\\makescenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:commands\\makescenecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|c:\\users\\enguy\\source\\repos\\videam\\viewmodels\\sceneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B37D6A28-9045-4463-88D3-D0E4989DFA0E}|Videam.csproj|solutionrelative:viewmodels\\sceneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,23 +42,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 249,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\enguy\\source\\repos\\videam\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-11T20:45:06.246Z",
+              "DocumentIndex": 2,
+              "Title": "VideoClipView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\Views\\VideoClipView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\VideoClipView.xaml.cs",
+              "ToolTip": "C:\\Users\\enguy\\source\\repos\\videam\\Views\\VideoClipView.xaml.cs",
+              "RelativeToolTip": "Views\\VideoClipView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T23:13:07.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "VideoClipView.xaml",
+              "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\Views\\VideoClipView.xaml",
+              "RelativeDocumentMoniker": "Views\\VideoClipView.xaml",
+              "ToolTip": "C:\\Users\\enguy\\source\\repos\\videam\\Views\\VideoClipView.xaml",
+              "RelativeToolTip": "Views\\VideoClipView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T23:09:27.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TimelineView.xaml",
               "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\Views\\TimelineView.xaml",
               "RelativeDocumentMoniker": "Views\\TimelineView.xaml",
@@ -63,6 +84,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\enguy\\source\\repos\\videam\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T20:45:06.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\Models\\Scene.cs",
               "RelativeDocumentMoniker": "Models\\Scene.cs",
@@ -70,25 +103,24 @@
               "RelativeToolTip": "Models\\Scene.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T21:52:13.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T21:52:13.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TimelineViewModel.cs",
               "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\ViewModels\\TimelineViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\TimelineViewModel.cs",
               "ToolTip": "C:\\Users\\enguy\\source\\repos\\videam\\ViewModels\\TimelineViewModel.cs",
               "RelativeToolTip": "ViewModels\\TimelineViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAiAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T23:04:09.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MakeSceneCommand.cs",
               "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\Commands\\MakeSceneCommand.cs",
               "RelativeDocumentMoniker": "Commands\\MakeSceneCommand.cs",
@@ -96,12 +128,11 @@
               "RelativeToolTip": "Commands\\MakeSceneCommand.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T01:34:52.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T01:34:52.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "SceneViewModel.cs",
               "DocumentMoniker": "C:\\Users\\enguy\\source\\repos\\videam\\ViewModels\\SceneViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\SceneViewModel.cs",
@@ -109,8 +140,7 @@
               "RelativeToolTip": "ViewModels\\SceneViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T23:03:06.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T23:03:06.774Z"
             }
           ]
         }

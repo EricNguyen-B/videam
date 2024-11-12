@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\enguy\source\repos\videam\App.xaml
-2-2038597136
+31866482136
 
-15446507938
+16-892136908
 1981385397204
-MainWindow.xaml;Views\TimelineView.xaml;
+MainWindow.xaml;Views\TimelineView.xaml;Views\VideoClipView.xaml;
 
 False
 

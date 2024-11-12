@@ -23,6 +23,20 @@ namespace Videam.ViewModels
             }
         }
 
+        private int _width;
+        public int width
+        {
+            get
+            {
+                return _width;
+            }
+            set
+            {
+                _width = value;
+                OnPropertyChanged(nameof(_width));  
+            }
+        }
+
         private ObservableCollection<SceneViewModel> _allScenes = new ObservableCollection<SceneViewModel>();
         public ObservableCollection<SceneViewModel> allScenes
         {
